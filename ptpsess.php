@@ -105,10 +105,13 @@ echo '
 function DoIDELabel()
    {
 
-if ($_GET["IDERead"])
-	$_SESSION['IDEShown']=1;
 
 if ($_POST)
+	$_SESSION['IDEShown']=1;
+else
+   	$_SESSION['IDEShown']=0;
+
+if ($_GET["IDERead"])
 	$_SESSION['IDEShown']=1;
 
 
