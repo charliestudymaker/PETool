@@ -1,4 +1,4 @@
-<?
+<?php
 $DEBUG_MSGS = "<hr><h3>DEBUG LOG</h3>";
 
 function debugMsg( $msg ){
