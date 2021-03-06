@@ -127,7 +127,7 @@ if (1)
 45 Day PE Pretest Probability
 </td>
  <td class="result" colspan=3>
-  <?
+  <?php
         if (intval($_POST["giATTMatches"])>14)
 		echo $_POST["gdPTP"] . "%"; 
 	else
@@ -145,7 +145,7 @@ if (1)
 <table border=2>
 <tr><td>
 <table>
-<?
+<?php
  $labels = array();
  $labels["age=0"] = " < 35 ";
  $labels["age=1"] = " 35 - 49";
@@ -238,6 +238,7 @@ if (1)
 ?>
 </table>
 </table>
+
 
 <table border=1>
 <tr>
