@@ -973,8 +973,8 @@ else
 					//Display normal PreTest Probs
 			?>
 				<tr><td class="lineitem"># of PE Outcomes</td><td class="result"><?php echo "$giPEOutcomes" ?></td></tr>
-<input type=hidden name=giPEOutcomes value=<? echo $giPEOutcomes; ?>>
-<input type=hidden name=giATTMatches value=<? echo $giATTMatches; ?>>
+<input type=hidden name=giPEOutcomes value=<?php echo $giPEOutcomes; ?>>
+<input type=hidden name=giATTMatches value=<?php echo $giATTMatches; ?>>
 
 				<tr><td class="lineitem"># of Matched Patients</td><td class="result">
 <?php 
